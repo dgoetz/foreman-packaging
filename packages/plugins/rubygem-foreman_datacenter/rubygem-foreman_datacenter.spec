@@ -5,7 +5,7 @@
 %global plugin_name datacenter
 
 Name: %{?scl_prefix}rubygem-%{gem_name}
-Version: 0.1.45
+Version: 1.20.0
 Release: 1%{?foremandist}%{?dist}
 Summary: A plugin that lets you document your servers in a datacenter
 Group: Applications/Systems
@@ -104,3 +104,6 @@ cp -pa .%{gem_dir}/* \
 exit 0
 
 %changelog
+* Fri Mar 08 2019 Dirk Goetz <dirk.goetz@netways.de> 1.20.0-1
+- Update to 1.20.0
+
